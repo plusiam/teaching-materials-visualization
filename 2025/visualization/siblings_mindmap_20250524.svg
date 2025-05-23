@@ -1,0 +1,120 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 그라디언트 -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFBEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FDF2F8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1000" height="700" fill="url(#backgroundGradient)" />
+  
+  <!-- 제목 -->
+  <text x="500" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#374151">
+    아기 돼지 삼형제의 고민
+  </text>
+  <text x="500" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6B7280">
+    각자의 입장에서 바라본 형제자매 관계
+  </text>
+  
+  <!-- 연결선 -->
+  <path d="M 200 150 Q 400 100 600 150" stroke="#E5E7EB" stroke-width="3" fill="none" stroke-dasharray="5,5" />
+  <path d="M 200 150 Q 300 275 400 400" stroke="#E5E7EB" stroke-width="3" fill="none" stroke-dasharray="5,5" />
+  <path d="M 600 150 Q 500 275 400 400" stroke="#E5E7EB" stroke-width="3" fill="none" stroke-dasharray="5,5" />
+  
+  <!-- 첫째 돼지 -->
+  <g id="firstPig">
+    <!-- 돼지 얼굴 원 -->
+    <circle cx="200" cy="150" r="40" fill="#FF6B9D" stroke="white" stroke-width="3" />
+    <!-- 돼지 코 -->
+    <ellipse cx="200" cy="155" rx="12" ry="8" fill="white" opacity="0.8" />
+    <circle cx="196" cy="155" r="2" fill="#FF6B9D" />
+    <circle cx="204" cy="155" r="2" fill="#FF6B9D" />
+    <!-- 돼지 귀 -->
+    <ellipse cx="175" cy="125" rx="8" ry="15" fill="#FF6B9D" transform="rotate(-30 175 125)" />
+    <ellipse cx="225" cy="125" rx="8" ry="15" fill="#FF6B9D" transform="rotate(30 225 125)" />
+    <!-- 눈 -->
+    <circle cx="188" cy="142" r="4" fill="white" />
+    <circle cx="212" cy="142" r="4" fill="white" />
+    <circle cx="188" cy="142" r="2" fill="black" />
+    <circle cx="212" cy="142" r="2" fill="black" />
+    <!-- 위치 텍스트 -->
+    <text x="200" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FF6B9D">첫째</text>
+  </g>
+  
+  <!-- 둘째 돼지 -->
+  <g id="secondPig">
+    <circle cx="600" cy="150" r="40" fill="#4ECDC4" stroke="white" stroke-width="3" />
+    <ellipse cx="600" cy="155" rx="12" ry="8" fill="white" opacity="0.8" />
+    <circle cx="596" cy="155" r="2" fill="#4ECDC4" />
+    <circle cx="604" cy="155" r="2" fill="#4ECDC4" />
+    <ellipse cx="575" cy="125" rx="8" ry="15" fill="#4ECDC4" transform="rotate(-30 575 125)" />
+    <ellipse cx="625" cy="125" rx="8" ry="15" fill="#4ECDC4" transform="rotate(30 625 125)" />
+    <circle cx="588" cy="142" r="4" fill="white" />
+    <circle cx="612" cy="142" r="4" fill="white" />
+    <circle cx="588" cy="142" r="2" fill="black" />
+    <circle cx="612" cy="142" r="2" fill="black" />
+    <text x="600" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#4ECDC4">둘째</text>
+  </g>
+  
+  <!-- 셋째 돼지 -->
+  <g id="thirdPig">
+    <circle cx="400" cy="400" r="40" fill="#45B7D1" stroke="white" stroke-width="3" />
+    <ellipse cx="400" cy="405" rx="12" ry="8" fill="white" opacity="0.8" />
+    <circle cx="396" cy="405" r="2" fill="#45B7D1" />
+    <circle cx="404" cy="405" r="2" fill="#45B7D1" />
+    <ellipse cx="375" cy="375" rx="8" ry="15" fill="#45B7D1" transform="rotate(-30 375 375)" />
+    <ellipse cx="425" cy="375" rx="8" ry="15" fill="#45B7D1" transform="rotate(30 425 375)" />
+    <circle cx="388" cy="392" r="4" fill="white" />
+    <circle cx="412" cy="392" r="4" fill="white" />
+    <circle cx="388" cy="392" r="2" fill="black" />
+    <circle cx="412" cy="392" r="2" fill="black" />
+    <text x="400" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#45B7D1">셋째</text>
+  </g>
+  
+  <!-- 첫째 고민 박스 -->
+  <g id="firstConcerns">
+    <rect x="50" y="300" width="220" height="140" fill="white" stroke="#FF6B9D" stroke-width="3" rx="10" />
+    <rect x="50" y="300" width="220" height="30" fill="#FF6B9D" rx="10" />
+    <rect x="50" y="320" width="220" height="10" fill="#FF6B9D" />
+    <text x="160" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">첫째의 고민</text>
+    
+    <text x="60" y="350" font-family="Arial, sans-serif" font-size="12" fill="#374151">• 동생들 잘 보살피라고 하심</text>
+    <text x="60" y="370" font-family="Arial, sans-serif" font-size="12" fill="#374151">• 모범을 보이라고 하심</text>
+    <text x="60" y="390" font-family="Arial, sans-serif" font-size="12" fill="#374151">• 부모님이 동생들을 더 예뻐하심</text>
+    <text x="60" y="410" font-family="Arial, sans-serif" font-size="12" fill="#374151">• 스트레스를 받아요</text>
+  </g>
+  
+  <!-- 둘째 고민 박스 -->
+  <g id="secondConcerns">
+    <rect x="730" y="300" width="220" height="140" fill="white" stroke="#4ECDC4" stroke-width="3" rx="10" />
+    <rect x="730" y="300" width="220" height="30" fill="#4ECDC4" rx="10" />
+    <rect x="730" y="320" width="220" height="10" fill="#4ECDC4" />
+    <text x="840" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">둘째의 고민</text>
+    
+    <text x="740" y="350" font-family="Arial, sans-serif" font-size="12" fill="#374151">• 형 말은 잘 들으라고 하심</text>
+    <text x="740" y="370" font-family="Arial, sans-serif" font-size="12" fill="#374151">• 동생에게는 늘 양보하라고 하심</text>
+    <text x="740" y="390" font-family="Arial, sans-serif" font-size="12" fill="#374151">• 내가 피해를 제일 많이 봐요</text>
+    <text x="740" y="410" font-family="Arial, sans-serif" font-size="12" fill="#374151">• 중간에서 항상 힘들어요</text>
+  </g>
+  
+  <!-- 셋째 고민 박스 -->
+  <g id="thirdConcerns">
+    <rect x="290" y="530" width="220" height="140" fill="white" stroke="#45B7D1" stroke-width="3" rx="10" />
+    <rect x="290" y="530" width="220" height="30" fill="#45B7D1" rx="10" />
+    <rect x="290" y="550" width="220" height="10" fill="#45B7D1" />
+    <text x="400" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">셋째의 고민</text>
+    
+    <text x="300" y="580" font-family="Arial, sans-serif" font-size="12" fill="#374151">• 항상 형들 물건을 물려받아요</text>
+    <text x="300" y="600" font-family="Arial, sans-serif" font-size="12" fill="#374151">• 심부름을 시킬 동생도 없어요</text>
+    <text x="300" y="620" font-family="Arial, sans-serif" font-size="12" fill="#374151">• 어린아이로 취급받아서 화나요</text>
+    <text x="300" y="640" font-family="Arial, sans-serif" font-size="12" fill="#374151">• 나도 이만하면 다 컸거든요</text>
+  </g>
+  
+  <!-- 메시지 박스 -->
+  <g id="messageBox">
+    <rect x="350" y="100" width="300" height="50" fill="white" stroke="#E5E7EB" stroke-width="2" rx="8" />
+    <text x="500" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#374151">💭 모두가 각자의 어려움을 가지고 있어요.</text>
+    <text x="500" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#374151">서로의 마음을 이해하고 배려하는 것이 중요해요!</text>
+  </g>
+</svg>
