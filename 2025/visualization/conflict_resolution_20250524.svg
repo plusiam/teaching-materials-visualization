@@ -1,0 +1,130 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 그라디언트 -->
+  <defs>
+    <linearGradient id="backgroundGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EBF8FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F3E8FF;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 화살표 마커들 -->
+    <marker id="arrowhead-1" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FF6B6B" />
+    </marker>
+    <marker id="arrowhead-2" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4ECDC4" />
+    </marker>
+    <marker id="arrowhead-3" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#45B7D1" />
+    </marker>
+    <marker id="arrowhead-4" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#96CEB4" />
+    </marker>
+  </defs>
+  
+  <rect width="1000" height="800" fill="url(#backgroundGradient2)" />
+  
+  <!-- 제목 -->
+  <text x="500" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#374151">
+    형제자매 갈등 상황과 해결 방법
+  </text>
+  <text x="500" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6B7280">
+    다양한 갈등 상황에서 우애 있게 지내는 방법을 알아봐요
+  </text>
+  
+  <!-- 중앙 원 -->
+  <circle cx="500" cy="300" r="60" fill="#8B5CF6" stroke="white" stroke-width="4" />
+  <text x="500" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">우애 있는</text>
+  <text x="500" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">해결 방법</text>
+  
+  <!-- 연결선들 -->
+  <line x1="455" y1="255" x2="205" y2="165" stroke="#FF6B6B" stroke-width="3" marker-end="url(#arrowhead-1)" />
+  <line x1="545" y1="255" x2="695" y2="165" stroke="#4ECDC4" stroke-width="3" marker-end="url(#arrowhead-2)" />
+  <line x1="455" y1="345" x2="205" y2="435" stroke="#45B7D1" stroke-width="3" marker-end="url(#arrowhead-3)" />
+  <line x1="545" y1="345" x2="695" y2="435" stroke="#96CEB4" stroke-width="3" marker-end="url(#arrowhead-4)" />
+  
+  <!-- 상황 1: 물건 망가뜨림 -->
+  <g id="situation1">
+    <circle cx="150" cy="120" r="45" fill="#FF6B6B" stroke="white" stroke-width="3" />
+    <circle cx="150" cy="95" r="15" fill="white" stroke="#FF6B6B" stroke-width="2" />
+    <text x="150" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FF6B6B">1</text>
+    <text x="150" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">물건</text>
+    <text x="150" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">망가뜨림</text>
+    
+    <!-- 해결책 박스 -->
+    <rect x="50" y="180" width="200" height="100" fill="white" stroke="#FF6B6B" stroke-width="2" rx="8" />
+    <rect x="50" y="180" width="200" height="25" fill="#FF6B6B" rx="8" />
+    <rect x="50" y="195" width="200" height="10" fill="#FF6B6B" />
+    <text x="150" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">해결 방법</text>
+    <text x="60" y="220" font-family="Arial, sans-serif" font-size="10" fill="#374151">✓ 진심으로 사과하기</text>
+    <text x="60" y="240" font-family="Arial, sans-serif" font-size="10" fill="#374151">✓ 새 것으로 바꿔주겠다고 약속하기</text>
+    <text x="60" y="260" font-family="Arial, sans-serif" font-size="10" fill="#374151">✓ 앞으로 조심하겠다고 다짐하기</text>
+  </g>
+  
+  <!-- 상황 2: 컴퓨터 차지 다툼 -->
+  <g id="situation2">
+    <circle cx="750" cy="120" r="45" fill="#4ECDC4" stroke="white" stroke-width="3" />
+    <circle cx="750" cy="95" r="15" fill="white" stroke="#4ECDC4" stroke-width="2" />
+    <text x="750" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4ECDC4">2</text>
+    <text x="750" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">컴퓨터</text>
+    <text x="750" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">차지 다툼</text>
+    
+    <rect x="650" y="180" width="200" height="100" fill="white" stroke="#4ECDC4" stroke-width="2" rx="8" />
+    <rect x="650" y="180" width="200" height="25" fill="#4ECDC4" rx="8" />
+    <rect x="650" y="195" width="200" height="10" fill="#4ECDC4" />
+    <text x="750" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">해결 방법</text>
+    <text x="660" y="220" font-family="Arial, sans-serif" font-size="10" fill="#374151">✓ 시간을 정해서 번갈아 사용하기</text>
+    <text x="660" y="240" font-family="Arial, sans-serif" font-size="10" fill="#374151">✓ 가위바위보로 순서 정하기</text>
+    <text x="660" y="260" font-family="Arial, sans-serif" font-size="10" fill="#374151">✓ 함께 할 수 있는 게임 찾기</text>
+  </g>
+  
+  <!-- 상황 3: 심부름 미루기 -->
+  <g id="situation3">
+    <circle cx="150" cy="480" r="45" fill="#45B7D1" stroke="white" stroke-width="3" />
+    <circle cx="150" cy="455" r="15" fill="white" stroke="#45B7D1" stroke-width="2" />
+    <text x="150" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#45B7D1">3</text>
+    <text x="150" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">심부름</text>
+    <text x="150" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">미루기</text>
+    
+    <rect x="50" y="540" width="200" height="100" fill="white" stroke="#45B7D1" stroke-width="2" rx="8" />
+    <rect x="50" y="540" width="200" height="25" fill="#45B7D1" rx="8" />
+    <rect x="50" y="555" width="200" height="10" fill="#45B7D1" />
+    <text x="150" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">해결 방법</text>
+    <text x="60" y="580" font-family="Arial, sans-serif" font-size="10" fill="#374151">✓ 가위바위보로 정하기</text>
+    <text x="60" y="600" font-family="Arial, sans-serif" font-size="10" fill="#374151">✓ 번갈아 가며 하기</text>
+    <text x="60" y="620" font-family="Arial, sans-serif" font-size="10" fill="#374151">✓ 함께 심부름 다녀오기</text>
+  </g>
+  
+  <!-- 상황 4: 나만의 갈등 -->
+  <g id="situation4">
+    <circle cx="750" cy="480" r="45" fill="#96CEB4" stroke="white" stroke-width="3" />
+    <circle cx="750" cy="455" r="15" fill="white" stroke="#96CEB4" stroke-width="2" />
+    <text x="750" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#96CEB4">4</text>
+    <text x="750" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">나만의</text>
+    <text x="750" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">갈등</text>
+    
+    <rect x="650" y="540" width="200" height="100" fill="white" stroke="#96CEB4" stroke-width="2" rx="8" />
+    <rect x="650" y="540" width="200" height="25" fill="#96CEB4" rx="8" />
+    <rect x="650" y="555" width="200" height="10" fill="#96CEB4" />
+    <text x="750" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">해결 방법</text>
+    <text x="660" y="580" font-family="Arial, sans-serif" font-size="10" fill="#374151">✓ 서로의 마음 이야기하기</text>
+    <text x="660" y="600" font-family="Arial, sans-serif" font-size="10" fill="#374151">✓ 부모님께 도움 요청하기</text>
+    <text x="660" y="620" font-family="Arial, sans-serif" font-size="10" fill="#374151">✓ 양보하고 배려하기</text>
+  </g>
+  
+  <!-- 핵심 포인트 박스 -->
+  <g id="keyPoints">
+    <rect x="300" y="680" width="400" height="100" fill="white" stroke="#8B5CF6" stroke-width="3" rx="10" />
+    <rect x="300" y="680" width="400" height="30" fill="#8B5CF6" rx="10" />
+    <rect x="300" y="700" width="400" height="10" fill="#8B5CF6" />
+    <text x="500" y="700" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">🌟 우애 있게 지내는 핵심 포인트</text>
+    
+    <text x="350" y="730" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8B5CF6">💭 이해하기</text>
+    <text x="320" y="750" font-family="Arial, sans-serif" font-size="10" fill="#374151">상대방의 마음과 입장을 생각해보기</text>
+    
+    <text x="500" y="730" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8B5CF6">🤝 대화하기</text>
+    <text x="470" y="750" font-family="Arial, sans-serif" font-size="10" fill="#374151">서로의 생각을 차근차근 나누기</text>
+    
+    <text x="630" y="730" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8B5CF6">❤️ 배려하기</text>
+    <text x="610" y="750" font-family="Arial, sans-serif" font-size="10" fill="#374151">양보하고 도움을 주고받기</text>
+  </g>
+</svg>
