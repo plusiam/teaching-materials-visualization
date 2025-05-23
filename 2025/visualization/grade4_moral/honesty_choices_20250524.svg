@@ -1,0 +1,167 @@
+<svg viewBox="0 0 1000 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 그라디언트 -->
+  <defs>
+    <linearGradient id="moralGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8F4FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#EDF2FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0E7FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1000" height="1200" fill="url(#moralGradient)" />
+  
+  <!-- 상단 제목 영역 -->
+  <g id="titleSection">
+    <!-- 저울 배경 -->
+    <rect x="450" y="30" width="100" height="80" fill="white" stroke="#6C5CE7" stroke-width="3" rx="15" />
+    <text x="500" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="40">⚖️</text>
+    
+    <!-- 메인 제목 -->
+    <text x="500" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#6C5CE7">
+      정직한 생활
+    </text>
+    <text x="500" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#374151">
+      정직한 선택이 만드는 아름다운 삶
+    </text>
+  </g>
+  
+  <!-- 정직함의 가치 -->
+  <g id="virtuesSection">
+    <text x="500" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#6C5CE7">
+      🌟 정직함이 주는 선물
+    </text>
+    
+    <!-- 신뢰 -->
+    <rect x="100" y="240" width="180" height="120" fill="white" stroke="#6C5CE7" stroke-width="2" rx="12" />
+    <text x="190" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">🤝</text>
+    <text x="190" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#6C5CE7">신뢰</text>
+    <text x="110" y="315" font-family="Arial, sans-serif" font-size="12" fill="#374151">사람들이 나를</text>
+    <text x="110" y="335" font-family="Arial, sans-serif" font-size="12" fill="#374151">믿게 됩니다</text>
+    
+    <!-- 성장 -->
+    <rect x="300" y="240" width="180" height="120" fill="white" stroke="#6C5CE7" stroke-width="2" rx="12" />
+    <text x="390" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">📈</text>
+    <text x="390" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#6C5CE7">성장</text>
+    <text x="310" y="315" font-family="Arial, sans-serif" font-size="12" fill="#374151">실수를 통해 더 나은</text>
+    <text x="310" y="335" font-family="Arial, sans-serif" font-size="12" fill="#374151">사람이 됩니다</text>
+    
+    <!-- 평화 -->
+    <rect x="500" y="240" width="180" height="120" fill="white" stroke="#6C5CE7" stroke-width="2" rx="12" />
+    <text x="590" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">🕊️</text>
+    <text x="590" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#6C5CE7">평화</text>
+    <text x="510" y="315" font-family="Arial, sans-serif" font-size="12" fill="#374151">마음이 편안하고</text>
+    <text x="510" y="335" font-family="Arial, sans-serif" font-size="12" fill="#374151">떳떳합니다</text>
+    
+    <!-- 관계 -->
+    <rect x="700" y="240" width="180" height="120" fill="white" stroke="#6C5CE7" stroke-width="2" rx="12" />
+    <text x="790" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">💝</text>
+    <text x="790" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#6C5CE7">관계</text>
+    <text x="710" y="315" font-family="Arial, sans-serif" font-size="12" fill="#374151">진실한 관계를</text>
+    <text x="710" y="335" font-family="Arial, sans-serif" font-size="12" fill="#374151">맺을 수 있습니다</text>
+  </g>
+  
+  <!-- 상황별 선택과 결과 제목 -->
+  <text x="500" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#6C5CE7">
+    📋 상황별 선택과 결과
+  </text>
+  
+  <!-- 상황 1: 숙제를 깜빡했을 때 -->
+  <g id="situation1">
+    <rect x="50" y="440" width="900" height="160" fill="white" stroke="#6C5CE7" stroke-width="3" rx="15" />
+    
+    <!-- 상황 제목 -->
+    <circle cx="150" cy="480" r="25" fill="#6C5CE7" />
+    <text x="150" y="488" text-anchor="middle" font-family="Arial, sans-serif" font-size="20">📝</text>
+    <text x="200" y="475" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#6C5CE7">실수했을 때</text>
+    <text x="200" y="495" font-family="Arial, sans-serif" font-size="14" fill="#374151">숙제를 깜빡 잊고 안 했어요</text>
+    
+    <!-- 잘못된 선택 -->
+    <rect x="80" y="520" width="180" height="70" fill="#FEE2E2" stroke="#EF4444" stroke-width="2" rx="8" />
+    <circle cx="110" cy="535" r="8" fill="#EF4444" />
+    <text x="110" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">✗</text>
+    <text x="130" y="540" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#EF4444">잘못된 선택</text>
+    <text x="90" y="560" font-family="Arial, sans-serif" font-size="11" fill="#DC2626">거짓말하기</text>
+    <text x="90" y="575" font-family="Arial, sans-serif" font-size="10" fill="#DC2626">→ 더 큰 문제 발생</text>
+    
+    <!-- 올바른 선택 -->
+    <rect x="300" y="520" width="180" height="70" fill="#D1FAE5" stroke="#10B981" stroke-width="2" rx="8" />
+    <circle cx="330" cy="535" r="8" fill="#10B981" />
+    <text x="330" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">✓</text>
+    <text x="350" y="540" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#10B981">올바른 선택</text>
+    <text x="310" y="560" font-family="Arial, sans-serif" font-size="11" fill="#059669">솔직하게 말하기</text>
+    <text x="310" y="575" font-family="Arial, sans-serif" font-size="10" fill="#059669">→ 이해와 기회</text>
+    
+    <!-- 선택 안내 -->
+    <rect x="520" y="535" width="200" height="40" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2" rx="8" />
+    <text x="620" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1D4ED8">🤔 어떤 선택이</text>
+    <text x="620" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1D4ED8">더 좋을까요?</text>
+  </g>
+  
+  <!-- 상황 2: 친구 물건 망가뜨림 -->
+  <g id="situation2">
+    <rect x="50" y="620" width="900" height="160" fill="white" stroke="#A29BFE" stroke-width="3" rx="15" />
+    
+    <circle cx="150" cy="660" r="25" fill="#A29BFE" />
+    <text x="150" y="668" text-anchor="middle" font-family="Arial, sans-serif" font-size="20">🤝</text>
+    <text x="200" y="655" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#A29BFE">친구와의 관계</text>
+    <text x="200" y="675" font-family="Arial, sans-serif" font-size="14" fill="#374151">친구의 물건을 실수로 망가뜨렸어요</text>
+    
+    <rect x="80" y="700" width="180" height="70" fill="#FEE2E2" stroke="#EF4444" stroke-width="2" rx="8" />
+    <circle cx="110" cy="715" r="8" fill="#EF4444" />
+    <text x="110" y="720" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">✗</text>
+    <text x="130" y="720" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#EF4444">잘못된 선택</text>
+    <text x="90" y="740" font-family="Arial, sans-serif" font-size="11" fill="#DC2626">모른 척하기</text>
+    <text x="90" y="755" font-family="Arial, sans-serif" font-size="10" fill="#DC2626">→ 신뢰 관계 파괴</text>
+    
+    <rect x="300" y="700" width="180" height="70" fill="#D1FAE5" stroke="#10B981" stroke-width="2" rx="8" />
+    <circle cx="330" cy="715" r="8" fill="#10B981" />
+    <text x="330" y="720" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">✓</text>
+    <text x="350" y="720" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#10B981">올바른 선택</text>
+    <text x="310" y="740" font-family="Arial, sans-serif" font-size="11" fill="#059669">사과하고 책임지기</text>
+    <text x="310" y="755" font-family="Arial, sans-serif" font-size="10" fill="#059669">→ 관계가 더 돈독</text>
+  </g>
+  
+  <!-- 실천 다짐 영역 -->
+  <g id="practiceSection">
+    <rect x="150" y="820" width="700" height="180" fill="white" stroke="#8B5CF6" stroke-width="3" rx="15" />
+    <rect x="150" y="820" width="700" height="40" fill="#8B5CF6" rx="15" />
+    <rect x="150" y="850" width="700" height="10" fill="#8B5CF6" />
+    
+    <text x="500" y="845" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+      💪 나의 정직함 실천 계획
+    </text>
+    
+    <!-- 이번 주 목표 -->
+    <text x="270" y="885" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8B5CF6">
+      🎯 이번 주 목표
+    </text>
+    
+    <rect x="180" y="900" width="200" height="80" fill="#F3F4F6" stroke="#8B5CF6" stroke-width="2" rx="8" />
+    <rect x="190" y="910" r="4" width="8" height="8" fill="none" stroke="#374151" stroke-width="1" />
+    <text x="205" y="920" font-family="Arial, sans-serif" font-size="11" fill="#374151">실수했을 때 솔직하게 말하기</text>
+    <rect x="190" y="930" r="4" width="8" height="8" fill="none" stroke="#374151" stroke-width="1" />
+    <text x="205" y="940" font-family="Arial, sans-serif" font-size="11" fill="#374151">모르는 것을 모른다고 말하기</text>
+    <rect x="190" y="950" r="4" width="8" height="8" fill="none" stroke="#374151" stroke-width="1" />
+    <text x="205" y="960" font-family="Arial, sans-serif" font-size="11" fill="#374151">친구에게 진실한 마음 표현하기</text>
+    
+    <!-- 나만의 다짐 -->
+    <text x="630" y="885" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3B82F6">
+      📝 나만의 다짐
+    </text>
+    
+    <rect x="540" y="900" width="200" height="80" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2" stroke-dasharray="5,5" rx="8" />
+    <text x="640" y="930" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1E40AF">정직한 사람이 되기 위한</text>
+    <text x="640" y="950" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1E40AF">나만의 다짐을 써보세요!</text>
+  </g>
+  
+  <!-- 명언 -->
+  <g id="quote">
+    <rect x="150" y="1020" width="700" height="60" fill="#E0E7FF" stroke="#6366F1" stroke-width="2" rx="15" />
+    <text x="500" y="1040" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#374151">
+      "진실은 때로 어려울 수 있지만,
+    </text>
+    <text x="500" y="1060" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#374151">
+      언제나 가장 아름다운 길입니다." ✨
+    </text>
+  </g>
+</svg>
