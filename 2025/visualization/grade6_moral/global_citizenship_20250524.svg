@@ -1,0 +1,188 @@
+<svg viewBox="0 0 1000 1100" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 그라디언트 -->
+  <defs>
+    <linearGradient id="matureGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8FAFC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E2E8F0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1000" height="1100" fill="url(#matureGradient)" />
+  
+  <!-- 상단 제목 영역 -->
+  <g id="titleSection">
+    <!-- 지구 아이콘 배경 -->
+    <rect x="450" y="30" width="100" height="80" fill="white" stroke="#94A3B8" stroke-width="2" rx="12" />
+    <text x="500" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="32">🌐</text>
+    
+    <!-- 메인 제목 -->
+    <text x="500" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="300" fill="#2D3436">
+      지구촌 시민의 책임
+    </text>
+    <text x="500" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="300" fill="#636E72">
+      하나의 지구, 하나의 인류 공동체에서 살아가는 우리의 역할
+    </text>
+  </g>
+  
+  <!-- 핵심 가치 -->
+  <g id="coreValues">
+    <text x="500" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#374151">
+      지구촌 시민의 핵심 가치
+    </text>
+    
+    <!-- 상호 의존성 -->
+    <rect x="100" y="240" width="180" height="100" fill="white" stroke="#E5E7EB" stroke-width="1" rx="8" />
+    <text x="190" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="20">🔗</text>
+    <text x="190" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#2D3436">상호 의존성</text>
+    <text x="190" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#636E72">모든 것은 서로</text>
+    <text x="190" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#636E72">연결되어 있다</text>
+    
+    <!-- 지속 가능성 -->
+    <rect x="300" y="240" width="180" height="100" fill="white" stroke="#E5E7EB" stroke-width="1" rx="8" />
+    <text x="390" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="20">♻️</text>
+    <text x="390" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#2D3436">지속 가능성</text>
+    <text x="390" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#636E72">미래 세대를 위한</text>
+    <text x="390" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#636E72">책임</text>
+    
+    <!-- 다양성 존중 -->
+    <rect x="500" y="240" width="180" height="100" fill="white" stroke="#E5E7EB" stroke-width="1" rx="8" />
+    <text x="590" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="20">🌈</text>
+    <text x="590" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#2D3436">다양성 존중</text>
+    <text x="590" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#636E72">차이를 인정하고</text>
+    <text x="590" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#636E72">포용한다</text>
+    
+    <!-- 글로벌 시민의식 -->
+    <rect x="700" y="240" width="180" height="100" fill="white" stroke="#E5E7EB" stroke-width="1" rx="8" />
+    <text x="790" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="20">🌐</text>
+    <text x="790" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#2D3436">글로벌 시민의식</text>
+    <text x="790" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#636E72">세계를 품는</text>
+    <text x="790" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#636E72">마음</text>
+  </g>
+  
+  <!-- 주요 과제 제목 -->
+  <text x="500" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#374151">
+    지구촌의 주요 과제와 나의 역할
+  </text>
+  
+  <!-- 환경 보호 -->
+  <g id="issue1">
+    <rect x="50" y="420" width="900" height="120" fill="white" stroke="#E5E7EB" stroke-width="1" rx="12" />
+    
+    <circle cx="120" cy="460" r="20" fill="#00B894" />
+    <text x="120" y="468" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">🌍</text>
+    
+    <text x="160" y="450" font-family="Arial, sans-serif" font-size="16" font-weight="500" fill="#2D3436">환경 보호</text>
+    <text x="160" y="470" font-family="Arial, sans-serif" font-size="12" fill="#636E72">지구 온난화와 환경 파괴</text>
+    
+    <!-- 내가 할 일 -->
+    <rect x="160" y="485" width="200" height="45" fill="#DBEAFE" stroke="#60A5FA" stroke-width="1" rx="6" />
+    <text x="170" y="500" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#1E40AF">💡 내가 할 수 있는 일</text>
+    <text x="170" y="515" font-family="Arial, sans-serif" font-size="10" fill="#1E40AF">일회용품 줄이기, 분리수거 실천</text>
+    
+    <!-- 기대 효과 -->
+    <rect x="380" y="485" width="200" height="45" fill="#D1FAE5" stroke="#34D399" stroke-width="1" rx="6" />
+    <text x="390" y="500" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#065F46">🌟 기대되는 변화</text>
+    <text x="390" y="515" font-family="Arial, sans-serif" font-size="10" fill="#065F46">지구 환경 보전에 기여</text>
+  </g>
+  
+  <!-- 빈곤과 불평등 -->
+  <g id="issue2">
+    <rect x="50" y="560" width="900" height="120" fill="white" stroke="#E5E7EB" stroke-width="1" rx="12" />
+    
+    <circle cx="120" cy="600" r="20" fill="#74B9FF" />
+    <text x="120" y="608" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">🤝</text>
+    
+    <text x="160" y="590" font-family="Arial, sans-serif" font-size="16" font-weight="500" fill="#2D3436">빈곤과 불평등</text>
+    <text x="160" y="610" font-family="Arial, sans-serif" font-size="12" fill="#636E72">세계 곳곳의 기아와 교육 불평등</text>
+    
+    <rect x="160" y="625" width="200" height="45" fill="#DBEAFE" stroke="#60A5FA" stroke-width="1" rx="6" />
+    <text x="170" y="640" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#1E40AF">💡 내가 할 수 있는 일</text>
+    <text x="170" y="655" font-family="Arial, sans-serif" font-size="10" fill="#1E40AF">기부 활동, 공정무역 제품 선택</text>
+    
+    <rect x="380" y="625" width="200" height="45" fill="#D1FAE5" stroke="#34D399" stroke-width="1" rx="6" />
+    <text x="390" y="640" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#065F46">🌟 기대되는 변화</text>
+    <text x="390" y="655" font-family="Arial, sans-serif" font-size="10" fill="#065F46">더 공정한 세상 만들기</text>
+  </g>
+  
+  <!-- 단계별 실천 계획 -->
+  <g id="actionLevels">
+    <text x="500" y="720" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#374151">
+      단계별 실천 계획
+    </text>
+    
+    <!-- 연결선 -->
+    <line x1="150" y1="760" x2="850" y2="760" stroke="#E5E7EB" stroke-width="2" />
+    
+    <!-- 개인 차원 -->
+    <circle cx="200" cy="760" r="12" fill="#74B9FF" />
+    <text x="200" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">1</text>
+    <rect x="150" y="780" width="100" height="80" fill="white" stroke="#74B9FF" stroke-width="1" rx="8" />
+    <text x="200" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#2D3436">개인 차원</text>
+    <text x="160" y="820" font-family="Arial, sans-serif" font-size="10" fill="#636E72">생활 습관 개선</text>
+    <text x="160" y="835" font-family="Arial, sans-serif" font-size="10" fill="#636E72">지식과 인식 확장</text>
+    
+    <!-- 지역 차원 -->
+    <circle cx="350" cy="760" r="12" fill="#00B894" />
+    <text x="350" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">2</text>
+    <rect x="300" y="780" width="100" height="80" fill="white" stroke="#00B894" stroke-width="1" rx="8" />
+    <text x="350" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#2D3436">지역 차원</text>
+    <text x="310" y="820" font-family="Arial, sans-serif" font-size="10" fill="#636E72">지역 사회 봉사</text>
+    <text x="310" y="835" font-family="Arial, sans-serif" font-size="10" fill="#636E72">환경 보호 활동</text>
+    
+    <!-- 국가 차원 -->
+    <circle cx="500" cy="760" r="12" fill="#636E72" />
+    <text x="500" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">3</text>
+    <rect x="450" y="780" width="100" height="80" fill="white" stroke="#636E72" stroke-width="1" rx="8" />
+    <text x="500" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#2D3436">국가 차원</text>
+    <text x="460" y="820" font-family="Arial, sans-serif" font-size="10" fill="#636E72">정책 관심</text>
+    <text x="460" y="835" font-family="Arial, sans-serif" font-size="10" fill="#636E72">민주적 참여</text>
+    
+    <!-- 세계 차원 -->
+    <circle cx="650" cy="760" r="12" fill="#2D3436" />
+    <text x="650" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">4</text>
+    <rect x="600" y="780" width="100" height="80" fill="white" stroke="#2D3436" stroke-width="1" rx="8" />
+    <text x="650" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#2D3436">세계 차원</text>
+    <text x="610" y="820" font-family="Arial, sans-serif" font-size="10" fill="#636E72">국제 협력 지지</text>
+    <text x="610" y="835" font-family="Arial, sans-serif" font-size="10" fill="#636E72">글로벌 이슈 관심</text>
+  </g>
+  
+  <!-- 성찰과 다짐 -->
+  <g id="reflection">
+    <rect x="150" y="900" width="700" height="150" fill="white" stroke="#E5E7EB" stroke-width="1" rx="12" />
+    
+    <text x="500" y="930" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#374151">
+      나의 성찰과 다짐
+    </text>
+    
+    <!-- 성찰 질문 -->
+    <text x="300" y="960" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#2D3436">
+      🤔 깊이 생각해보기
+    </text>
+    <rect x="200" y="970" width="200" height="60" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" rx="6" />
+    <text x="210" y="985" font-family="Arial, sans-serif" font-size="9" fill="#475569">지구촌의 문제가 나와 어떤</text>
+    <text x="210" y="998" font-family="Arial, sans-serif" font-size="9" fill="#475569">관련이 있을까?</text>
+    <text x="210" y="1015" font-family="Arial, sans-serif" font-size="9" fill="#475569">나의 작은 행동이 세상에</text>
+    <text x="210" y="1025" font-family="Arial, sans-serif" font-size="9" fill="#475569">어떤 변화를 가져올까?</text>
+    
+    <!-- 실천 다짐 -->
+    <text x="700" y="960" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#2D3436">
+      ✊ 나의 실천 다짐
+    </text>
+    <rect x="600" y="970" width="200" height="60" fill="#DBEAFE" stroke="#60A5FA" stroke-width="1" stroke-dasharray="3,3" rx="6" />
+    <text x="700" y="990" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1E40AF">구체적인 실천 목표를</text>
+    <text x="700" y="1005" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1E40AF">세워보세요</text>
+    <text x="700" y="1020" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1E40AF">내가 꿈꾸는 지구촌의</text>
+    <text x="700" y="1030" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1E40AF">모습을 그려보세요</text>
+  </g>
+  
+  <!-- 마무리 명언 -->
+  <g id="quote">
+    <rect x="200" y="1070" width="600" height="40" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1" rx="8" />
+    <text x="500" y="1085" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="300" fill="#475569">
+      "지구는 우리가 조상으로부터 물려받은 것이 아니라
+    </text>
+    <text x="500" y="1100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="300" fill="#475569">
+      후손들로부터 빌린 것이다" - 아메리카 원주민 속담
+    </text>
+  </g>
+</svg>
