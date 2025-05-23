@@ -1,0 +1,157 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 그라디언트 -->
+  <defs>
+    <linearGradient id="playgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FCE4EC;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFF9C4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E3F2FD;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1000" height="800" fill="url(#playgroundGradient)" />
+  
+  <!-- 상단 제목 영역 -->
+  <g id="titleSection">
+    <!-- 풍선 배경 -->
+    <circle cx="500" cy="80" r="50" fill="white" stroke="#FF6B6B" stroke-width="4" />
+    <text x="500" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="40">🎈</text>
+    
+    <!-- 메인 제목 -->
+    <text x="500" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#E91E63">
+      친구와 함께 놀아요!
+    </text>
+    <text x="500" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1976D2">
+      재미있게 놀려면 어떻게 해야 할까요? 🌈
+    </text>
+  </g>
+  
+  <!-- 놀이터 배경 -->
+  <g id="playground">
+    <!-- 언덕들 -->
+    <path d="M0,300 Q200,250 400,270 T800,280 L800,350 L0,350 Z" fill="#A8E6CF" opacity="0.4" />
+    <path d="M0,320 Q300,290 600,310 T800,300 L800,350 L0,350 Z" fill="#FFE66D" opacity="0.4" />
+    
+    <!-- 태양 -->
+    <circle cx="850" cy="120" r="30" fill="#FFE66D" stroke="#FFA726" stroke-width="3" />
+    <g transform="translate(850, 120)">
+      <line x1="0" y1="-40" x2="0" y2="-50" stroke="#FFA726" stroke-width="2" />
+      <line x1="28" y1="-28" x2="35" y2="-35" stroke="#FFA726" stroke-width="2" />
+      <line x1="40" y1="0" x2="50" y2="0" stroke="#FFA726" stroke-width="2" />
+      <line x1="28" y1="28" x2="35" y2="35" stroke="#FFA726" stroke-width="2" />
+      <line x1="0" y1="40" x2="0" y2="50" stroke="#FFA726" stroke-width="2" />
+      <line x1="-28" y1="28" x2="-35" y2="35" stroke="#FFA726" stroke-width="2" />
+      <line x1="-40" y1="0" x2="-50" y2="0" stroke="#FFA726" stroke-width="2" />
+      <line x1="-28" y1="-28" x2="-35" y2="-35" stroke="#FFA726" stroke-width="2" />
+    </g>
+    
+    <!-- 구름들 -->
+    <g fill="white" opacity="0.7">
+      <ellipse cx="150" cy="120" rx="25" ry="15" />
+      <ellipse cx="170" cy="110" rx="20" ry="12" />
+      <ellipse cx="190" cy="120" rx="25" ry="15" />
+      
+      <ellipse cx="650" cy="130" rx="30" ry="18" />
+      <ellipse cx="675" cy="120" rx="25" ry="15" />
+      <ellipse cx="700" cy="130" rx="30" ry="18" />
+    </g>
+  </g>
+  
+  <!-- 동물 친구들 -->
+  <g id="animalFriends">
+    <!-- 토끼 -->
+    <circle cx="200" cy="250" r="30" fill="white" stroke="#4ECDC4" stroke-width="3" />
+    <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">🐰</text>
+    <text x="200" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2D3436">토끼</text>
+    
+    <!-- 강아지 -->
+    <circle cx="400" cy="280" r="30" fill="white" stroke="#4ECDC4" stroke-width="3" />
+    <text x="400" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">🐶</text>
+    <text x="400" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2D3436">강아지</text>
+    
+    <!-- 고양이 -->
+    <circle cx="600" cy="260" r="30" fill="white" stroke="#4ECDC4" stroke-width="3" />
+    <text x="600" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">🐱</text>
+    <text x="600" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2D3436">고양이</text>
+    
+    <!-- 곰 -->
+    <circle cx="800" cy="240" r="30" fill="white" stroke="#4ECDC4" stroke-width="3" />
+    <text x="800" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">🐻</text>
+    <text x="800" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2D3436">곰</text>
+  </g>
+  
+  <!-- 놀이 규칙 박스들 -->
+  <g id="playRules">
+    <!-- 규칙 1: 차례 지키기 -->
+    <rect x="50" y="400" width="200" height="150" fill="white" stroke="#FF6B6B" stroke-width="4" rx="20" />
+    <rect x="50" y="400" width="200" height="40" fill="#FF6B6B" rx="20" />
+    <rect x="50" y="430" width="200" height="10" fill="#FF6B6B" />
+    <circle cx="150" cy="420" r="15" fill="white" />
+    <text x="150" y="427" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">🎯</text>
+    <text x="150" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FF6B6B">차례 지키기</text>
+    <text x="60" y="495" font-family="Arial, sans-serif" font-size="12" fill="#374151">친구가 먼저 놀고 있으면</text>
+    <text x="60" y="515" font-family="Arial, sans-serif" font-size="12" fill="#374151">기다려요</text>
+    
+    <!-- 규칙 2: 함께 놀기 -->
+    <rect x="270" y="400" width="200" height="150" fill="white" stroke="#4ECDC4" stroke-width="4" rx="20" />
+    <rect x="270" y="400" width="200" height="40" fill="#4ECDC4" rx="20" />
+    <rect x="270" y="430" width="200" height="10" fill="#4ECDC4" />
+    <circle cx="370" cy="420" r="15" fill="white" />
+    <text x="370" y="427" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">🤝</text>
+    <text x="370" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4ECDC4">함께 놀기</text>
+    <text x="280" y="495" font-family="Arial, sans-serif" font-size="12" fill="#374151">혼자 놀지 말고</text>
+    <text x="280" y="515" font-family="Arial, sans-serif" font-size="12" fill="#374151">친구와 함께 놀아요</text>
+    
+    <!-- 규칙 3: 양보하기 -->
+    <rect x="490" y="400" width="200" height="150" fill="white" stroke="#FFE66D" stroke-width="4" rx="20" />
+    <rect x="490" y="400" width="200" height="40" fill="#FFE66D" rx="20" />
+    <rect x="490" y="430" width="200" height="10" fill="#FFE66D" />
+    <circle cx="590" cy="420" r="15" fill="white" />
+    <text x="590" y="427" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">💝</text>
+    <text x="590" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#F39C12">양보하기</text>
+    <text x="500" y="495" font-family="Arial, sans-serif" font-size="12" fill="#374151">친구에게 먼저</text>
+    <text x="500" y="515" font-family="Arial, sans-serif" font-size="12" fill="#374151">하게 해주어요</text>
+    
+    <!-- 규칙 4: 도와주기 -->
+    <rect x="710" y="400" width="200" height="150" fill="white" stroke="#A8E6CF" stroke-width="4" rx="20" />
+    <rect x="710" y="400" width="200" height="40" fill="#A8E6CF" rx="20" />
+    <rect x="710" y="430" width="200" height="10" fill="#A8E6CF" />
+    <circle cx="810" cy="420" r="15" fill="white" />
+    <text x="810" y="427" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">🤗</text>
+    <text x="810" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#27AE60">도와주기</text>
+    <text x="720" y="495" font-family="Arial, sans-serif" font-size="12" fill="#374151">어려워하는 친구를</text>
+    <text x="720" y="515" font-family="Arial, sans-serif" font-size="12" fill="#374151">도와주어요</text>
+  </g>
+  
+  <!-- 하단 약속 영역 -->
+  <g id="promiseSection">
+    <rect x="150" y="600" width="700" height="150" fill="white" stroke="#8E44AD" stroke-width="4" rx="20" />
+    <rect x="150" y="600" width="700" height="40" fill="#8E44AD" rx="20" />
+    <rect x="150" y="630" width="700" height="10" fill="#8E44AD" />
+    
+    <!-- 제목 -->
+    <text x="500" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">
+      우리의 놀이 약속! 🤙
+    </text>
+    
+    <!-- 약속 아이콘들 -->
+    <circle cx="250" cy="680" r="20" fill="#FF6B6B" />
+    <text x="250" y="687" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">🎯</text>
+    <text x="250" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">차례</text>
+    
+    <circle cx="400" cy="680" r="20" fill="#4ECDC4" />
+    <text x="400" y="687" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">🤝</text>
+    <text x="400" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">함께</text>
+    
+    <circle cx="550" cy="680" r="20" fill="#FFE66D" />
+    <text x="550" y="687" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">💝</text>
+    <text x="550" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">양보</text>
+    
+    <circle cx="700" cy="680" r="20" fill="#A8E6CF" />
+    <text x="700" y="687" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">🤗</text>
+    <text x="700" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">도움</text>
+    
+    <text x="500" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#374151">
+      이 약속을 지키면 모두가 즐겁게 놀 수 있어요! 😊
+    </text>
+  </g>
+</svg>
