@@ -1,0 +1,143 @@
+<svg viewBox="0 0 1000 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 그라디언트 -->
+  <defs>
+    <linearGradient id="backgroundGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFBEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FED7AA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1000" height="900" fill="url(#backgroundGradient3)" />
+  
+  <!-- 제목 -->
+  <text x="500" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#374151">
+    가족 행복 비법서 3장
+  </text>
+  <text x="500" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#EA580C">
+    우애를 가꾸는 방법
+  </text>
+  <text x="500" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6B7280">
+    온몸으로 실천하는 형제자매 사랑
+  </text>
+  
+  <!-- 중앙 제목 박스 -->
+  <rect x="400" y="120" width="200" height="40" fill="white" stroke="#F59E0B" stroke-width="3" rx="20" />
+  <text x="500" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#F59E0B">
+    우애 실천하기
+  </text>
+  
+  <!-- 몸통 연결선 -->
+  <line x1="500" y1="220" x2="500" y2="280" stroke="#E5E7EB" stroke-width="4" />
+  <line x1="360" y1="340" x2="450" y2="320" stroke="#E5E7EB" stroke-width="4" />
+  <line x1="640" y1="340" x2="550" y2="320" stroke="#E5E7EB" stroke-width="4" />
+  <line x1="500" y1="400" x2="500" y2="480" stroke="#E5E7EB" stroke-width="4" />
+  
+  <!-- 머리 -->
+  <g id="head">
+    <ellipse cx="500" cy="190" rx="70" ry="50" fill="#FFD93D" stroke="white" stroke-width="3" opacity="0.9" />
+    <text x="500" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">머리</text>
+  </g>
+  
+  <!-- 입 -->
+  <g id="mouth">
+    <ellipse cx="520" cy="250" rx="50" ry="30" fill="#FF6B9D" stroke="white" stroke-width="3" opacity="0.9" />
+    <text x="520" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">입</text>
+  </g>
+  
+  <!-- 왼쪽 손 -->
+  <g id="leftHand">
+    <ellipse cx="300" cy="340" rx="60" ry="40" fill="#4ECDC4" stroke="white" stroke-width="3" opacity="0.9" />
+    <text x="300" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">손</text>
+  </g>
+  
+  <!-- 오른쪽 손 -->
+  <g id="rightHand">
+    <ellipse cx="700" cy="340" rx="60" ry="40" fill="#4ECDC4" stroke="white" stroke-width="3" opacity="0.9" />
+    <text x="700" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">손</text>
+  </g>
+  
+  <!-- 마음 (하트) -->
+  <g id="heart">
+    <path d="M500,320 C500,305 485,300 485,315 C485,305 470,305 470,325 C470,345 500,380 500,380 C500,380 530,345 530,325 C530,305 515,305 515,315 C515,300 500,305 500,320Z" 
+          fill="#FF4757" stroke="white" stroke-width="3" opacity="0.9" />
+    <text x="500" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">마음</text>
+  </g>
+  
+  <!-- 발 -->
+  <g id="feet">
+    <ellipse cx="500" cy="520" rx="70" ry="40" fill="#45B7D1" stroke="white" stroke-width="3" opacity="0.9" />
+    <text x="500" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">발</text>
+  </g>
+  
+  <!-- 머리 실천 방법 박스 -->
+  <g id="headActions">
+    <rect x="50" y="600" width="280" height="120" fill="white" stroke="#FFD93D" stroke-width="3" rx="10" />
+    <rect x="50" y="600" width="280" height="30" fill="#FFD93D" rx="10" />
+    <rect x="50" y="620" width="280" height="10" fill="#FFD93D" />
+    <text x="190" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">🧠 머리로 실천하기</text>
+    
+    <text x="60" y="650" font-family="Arial, sans-serif" font-size="12" fill="#374151">💫 형제자매의 입장 생각하기</text>
+    <text x="60" y="670" font-family="Arial, sans-serif" font-size="12" fill="#374151">💫 갈등의 원인 파악하기</text>
+    <text x="60" y="690" font-family="Arial, sans-serif" font-size="12" fill="#374151">💫 해결책 함께 고민하기</text>
+  </g>
+  
+  <!-- 입 실천 방법 박스 -->
+  <g id="mouthActions">
+    <rect x="360" y="600" width="280" height="120" fill="white" stroke="#FF6B9D" stroke-width="3" rx="10" />
+    <rect x="360" y="600" width="280" height="30" fill="#FF6B9D" rx="10" />
+    <rect x="360" y="620" width="280" height="10" fill="#FF6B9D" />
+    <text x="500" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">👄 입으로 실천하기</text>
+    
+    <text x="370" y="650" font-family="Arial, sans-serif" font-size="12" fill="#374151">💫 고운 말로 이야기하기</text>
+    <text x="370" y="670" font-family="Arial, sans-serif" font-size="12" fill="#374151">💫 진심 어린 사과하기</text>
+    <text x="370" y="690" font-family="Arial, sans-serif" font-size="12" fill="#374151">💫 고마운 마음 표현하기</text>
+  </g>
+  
+  <!-- 손 실천 방법 박스 -->
+  <g id="handActions">
+    <rect x="670" y="600" width="280" height="120" fill="white" stroke="#4ECDC4" stroke-width="3" rx="10" />
+    <rect x="670" y="600" width="280" height="30" fill="#4ECDC4" rx="10" />
+    <rect x="670" y="620" width="280" height="10" fill="#4ECDC4" />
+    <text x="810" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">✋ 손으로 실천하기</text>
+    
+    <text x="680" y="650" font-family="Arial, sans-serif" font-size="12" fill="#374151">💫 도움이 필요할 때 돕기</text>
+    <text x="680" y="670" font-family="Arial, sans-serif" font-size="12" fill="#374151">💫 함께 일하기</text>
+    <text x="680" y="690" font-family="Arial, sans-serif" font-size="12" fill="#374151">💫 다정하게 손잡기</text>
+  </g>
+  
+  <!-- 마음 실천 방법 박스 -->
+  <g id="heartActions">
+    <rect x="50" y="750" width="280" height="120" fill="white" stroke="#FF4757" stroke-width="3" rx="10" />
+    <rect x="50" y="750" width="280" height="30" fill="#FF4757" rx="10" />
+    <rect x="50" y="770" width="280" height="10" fill="#FF4757" />
+    <text x="190" y="770" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">💖 마음으로 실천하기</text>
+    
+    <text x="60" y="800" font-family="Arial, sans-serif" font-size="12" fill="#374151">💫 서로를 사랑하는 마음</text>
+    <text x="60" y="820" font-family="Arial, sans-serif" font-size="12" fill="#374151">💫 이해하고 배려하는 마음</text>
+    <text x="60" y="840" font-family="Arial, sans-serif" font-size="12" fill="#374151">💫 용서하고 양보하는 마음</text>
+  </g>
+  
+  <!-- 발 실천 방법 박스 -->
+  <g id="feetActions">
+    <rect x="360" y="750" width="280" height="120" fill="white" stroke="#45B7D1" stroke-width="3" rx="10" />
+    <rect x="360" y="750" width="280" height="30" fill="#45B7D1" rx="10" />
+    <rect x="360" y="770" width="280" height="10" fill="#45B7D1" />
+    <text x="500" y="770" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">👣 발로 실천하기</text>
+    
+    <text x="370" y="800" font-family="Arial, sans-serif" font-size="12" fill="#374151">💫 먼저 다가가기</text>
+    <text x="370" y="820" font-family="Arial, sans-serif" font-size="12" fill="#374151">💫 화해하러 가기</text>
+    <text x="370" y="840" font-family="Arial, sans-serif" font-size="12" fill="#374151">💫 함께 놀러 가기</text>
+  </g>
+  
+  <!-- 다짐 박스 -->
+  <g id="promise">
+    <rect x="670" y="750" width="280" height="120" fill="white" stroke="#F59E0B" stroke-width="3" rx="10" />
+    <rect x="670" y="750" width="280" height="30" fill="#F59E0B" rx="10" />
+    <rect x="670" y="770" width="280" height="10" fill="#F59E0B" />
+    <text x="810" y="770" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">✨ 나의 우애 실천 다짐</text>
+    
+    <rect x="680" y="790" width="260" height="60" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" stroke-dasharray="5,5" rx="5" />
+    <text x="810" y="810" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400E">여기에 나만의 실천 다짐을</text>
+    <text x="810" y="830" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400E">써보세요! 📝</text>
+  </g>
+</svg>
