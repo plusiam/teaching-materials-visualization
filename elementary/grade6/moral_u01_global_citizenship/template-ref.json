@@ -1,0 +1,35 @@
+{
+  "templateSystem": {
+    "version": "1.0.0", 
+    "migratedAt": "2025-05-24T01:50:00Z",
+    "migrationSource": "legacy-structure"
+  },
+  "templatePath": "templates/grade6/moral/",
+  "metadata": {
+    "grade": 6,
+    "subject": "moral",
+    "unit": "01",
+    "topic": "global_citizenship",
+    "format": "16:9",
+    "printable": true,
+    "interactive": true
+  },
+  "migratedFiles": [
+    {
+      "original": "global_citizenship_20250524.jsx",
+      "migrated": "1-concept-global-citizenship-20250524.jsx",
+      "type": "JSX"
+    },
+    {
+      "original": "global_citizenship_20250524.svg",
+      "migrated": "1-concept-global-citizenship-20250524.svg",
+      "type": "SVG"
+    }
+  ],
+  "styleTheme": "grade6-moral-global-citizenship",
+  "customization": {
+    "editable": ["studentName", "studentNumber", "title"],
+    "configurable": ["globalIssues", "principles", "actionLevels"],
+    "themeable": ["colors", "fonts", "spacing"]
+  }
+}
