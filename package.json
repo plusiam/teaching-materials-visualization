@@ -1,42 +1,31 @@
 {
   "name": "teaching-materials-visualization",
   "version": "1.0.0",
-  "description": "교육자료 시각화 자동화 프로젝트 - React 컴포넌트 및 SVG 변환",
+  "description": "🎨 교육자료 시각화 자동화 프로젝트 - React 컴포넌트 및 SVG 변환",
   "main": "index.js",
   "scripts": {
-    "create": "node tools/generators/create-from-template.js",
-    "migrate": "node tools/migrators/migrate-legacy-structure.js",
-    "convert:svg": "echo 'SVG 변환 도구는 개발 예정입니다'",
-    "validate": "node tools/validators/validate-structure.js",
-    "test": "echo 'No tests specified yet'",
-    "docs": "echo 'Documentation available in docs/ folder'",
-    "setup": "npm install && echo 'Setup complete! Run npm run help for available commands'",
-    "help": "echo 'Available commands:\n  npm run create -- --grade=3 --subject=moral --unit=02 --topic=honesty --type=worksheet\n  npm run migrate\n  npm run convert:svg\n  npm run validate\n  npm run docs'"
+    "migrate": "node tools/migrate-structure.js",
+    "create": "node tools/create-material.js",
+    "validate": "node tools/validate-structure.js",
+    "convert:svg": "node tools/jsx-to-svg.js",
+    "batch:convert": "node tools/batch-converter.js",
+    "dev": "npm run create --",
+    "help": "node tools/create-material.js --help",
+    "test": "echo \"테스트 준비 중...\" && exit 0"
   },
   "keywords": [
     "education",
     "visualization", 
     "react",
     "svg",
-    "template",
-    "korea",
+    "templates",
+    "korean-education",
     "elementary",
-    "moral",
-    "worksheet"
+    "moral-education",
+    "worksheets"
   ],
   "author": "plusiam",
   "license": "MIT",
-  "engines": {
-    "node": ">=14.0.0"
-  },
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  },
-  "devDependencies": {
-    "@types/node": "^16.0.0",
-    "chalk": "^4.1.2"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/plusiam/teaching-materials-visualization.git"
@@ -45,19 +34,34 @@
     "url": "https://github.com/plusiam/teaching-materials-visualization/issues"
   },
   "homepage": "https://github.com/plusiam/teaching-materials-visualization#readme",
-  "files": [
-    "templates/",
-    "elementary/",
-    "tools/",
-    "docs/",
-    "README.md"
-  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
   "config": {
-    "templateSystem": {
+    "templates": {
       "version": "1.0.0",
-      "supportedGrades": [2, 3, 4, 5, 6],
-      "supportedSubjects": ["play", "moral", "korean", "math", "science"],
-      "defaultFormat": "9:16"
+      "supportedGrades": [2, 3, 4, 6],
+      "defaultSubjects": {
+        "2": "play",
+        "3": "moral", 
+        "4": "moral",
+        "6": "moral"
+      }
     }
+  },
+  "directories": {
+    "docs": "./docs",
+    "templates": "./templates",
+    "tools": "./tools",
+    "elementary": "./2025/elementary"
   }
 }
