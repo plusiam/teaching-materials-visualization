@@ -1,0 +1,35 @@
+{
+  "templateSystem": {
+    "version": "1.0.0",
+    "migratedAt": "2025-05-24T01:50:00Z",
+    "migrationSource": "legacy-structure"
+  },
+  "templatePath": "templates/grade4/moral/",
+  "metadata": {
+    "grade": 4,
+    "subject": "moral",
+    "unit": "01",
+    "topic": "honesty",
+    "format": "16:9",
+    "printable": true,
+    "interactive": true
+  },
+  "migratedFiles": [
+    {
+      "original": "honesty_choices_20250524.jsx",
+      "migrated": "1-worksheet-honesty-choices-20250524.jsx",
+      "type": "JSX"
+    },
+    {
+      "original": "honesty_choices_20250524.svg",
+      "migrated": "1-worksheet-honesty-choices-20250524.svg", 
+      "type": "SVG"
+    }
+  ],
+  "styleTheme": "grade4-moral-honesty",
+  "customization": {
+    "editable": ["studentName", "studentNumber", "title"],
+    "configurable": ["choices", "analysis", "reflection"],
+    "themeable": ["colors", "fonts", "spacing"]
+  }
+}
