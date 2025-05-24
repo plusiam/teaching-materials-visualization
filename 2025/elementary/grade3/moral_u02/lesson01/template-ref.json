@@ -1,0 +1,81 @@
+{
+  "templatePath": "templates/grade3/moral/",
+  "lesson": {
+    "grade": 3,
+    "subject": "moral",
+    "unit": 2,
+    "lesson": 1,
+    "topic": "sibling-harmony",
+    "title": "형제자매와 사이좋게 지내요"
+  },
+  "components": {
+    "worksheet": {
+      "layout": "A4Layout",
+      "components": [
+        "StoryCard",
+        "EmotionIcon", 
+        "SituationDiagram",
+        "ValueBubble"
+      ],
+      "theme": "grade3-moral-storytelling",
+      "aspectRatio": "210:297"
+    },
+    "visual": {
+      "layout": "Slide16x9Layout",
+      "components": [
+        "FamilyTreeDiagram",
+        "EmotionBubble",
+        "ConceptMap"
+      ],
+      "theme": "grade3-moral-presentation",
+      "aspectRatio": "16:9"
+    },
+    "slide": {
+      "layout": "Slide16x9Layout", 
+      "components": [
+        "TitleSlide",
+        "ActivitySlide",
+        "ConflictResolutionChart"
+      ],
+      "theme": "grade3-moral-presentation",
+      "aspectRatio": "16:9"
+    }
+  },
+  "designSystem": {
+    "colors": {
+      "primary": "#FF6B9D",
+      "secondary": "#4ECDC4",
+      "accent": "#FFD93D",
+      "success": "#22C55E",
+      "emotion": "#F59E0B"
+    },
+    "fonts": {
+      "main": "Arial, sans-serif",
+      "style": "storytelling-friendly",
+      "emphasis": "bold for important concepts"
+    },
+    "characteristics": [
+      "다양하고 밝은 색상",
+      "스토리텔링 중심", 
+      "감정 표현 중시",
+      "구체적 상황 제시"
+    ]
+  },
+  "curriculum": {
+    "achievement": "[도03-02-01] 가정에서 화목하게 지내는 방법을 알고 실천한다.",
+    "objectives": [
+      "형제자매의 소중함을 깨닫기",
+      "각자의 입장에서 가족 관계 이해하기", 
+      "서로 배려하고 사랑하는 마음 기르기",
+      "가족 간의 갈등 해결 방법 생각해보기"
+    ],
+    "duration": "35분 (1차시)"
+  },
+  "metadata": {
+    "version": "2.0",
+    "created": "2025-05-24",
+    "lastUpdated": "2025-05-24",
+    "creator": "plusiam",
+    "structure": "lesson-based"
+  }
+}
