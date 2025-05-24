@@ -1,0 +1,114 @@
+{
+  "templateSystem": {
+    "version": "1.0.0",
+    "description": "교육자료 시각화 템플릿 참조 시스템",
+    "lastUpdated": "2025-05-24"
+  },
+  
+  "templatePath": "templates/grade3/moral/",
+  
+  "metadata": {
+    "grade": 3,
+    "subject": "도덕", 
+    "unit": "02",
+    "topic": "sibling_harmony",
+    "title": "형제자매 우애",
+    "lessonNumber": 1,
+    "materialType": "worksheet",
+    "format": "9:16",
+    "printable": true,
+    "interactive": true
+  },
+  
+  "components": [
+    {
+      "name": "WorksheetHeader",
+      "source": "templates/grade3/moral/components/WorksheetComponents.jsx",
+      "props": {
+        "grade": "3학년",
+        "subject": "도덕", 
+        "title": "형제자매와 사이좋게 지내요",
+        "customizable": ["studentName", "studentNumber"]
+      }
+    },
+    {
+      "name": "ActivitySection", 
+      "source": "templates/grade3/moral/components/WorksheetComponents.jsx",
+      "usage": "multiple",
+      "variants": ["drawing", "checklist", "emotion", "reflection"]
+    },
+    {
+      "name": "FamilyDrawingBoxes",
+      "source": "templates/grade3/moral/components/WorksheetComponents.jsx",
+      "props": {
+        "members": ["아빠", "엄마", "나", "형제자매"]
+      }
+    },
+    {
+      "name": "CheckboxList",
+      "source": "templates/grade3/moral/components/WorksheetComponents.jsx",
+      "props": {
+        "columns": 2,
+        "items": [
+          "형제자매와 장난감을 나누어 써요",
+          "형제자매가 아플 때 걱정해줘요", 
+          "형제자매와 자주 싸워요",
+          "혼자만 좋은 것을 가지려고 해요",
+          "형제자매를 도와줘요",
+          "형제자매와 대화를 많이 해요"
+        ]
+      }
+    },
+    {
+      "name": "EmotionFace",
+      "source": "templates/grade3/moral/components/WorksheetComponents.jsx",
+      "usage": "multiple",
+      "variants": ["happy", "neutral", "sad", "angry"]
+    }
+  ],
+  
+  "styleTheme": {
+    "name": "grade3-moral-storytelling",
+    "source": "templates/grade3/moral/styles/colors.js",
+    "primaryColors": ["#FF6B9D", "#4ECDC4", "#FFD93D", "#A8E6CF"],
+    "characteristics": ["스토리텔링", "감정표현", "체험활동", "개별화학습"]
+  },
+  
+  "sharedComponents": [
+    {
+      "name": "BaseLayout",
+      "source": "templates/shared/components/CommonComponents.jsx"
+    },
+    {
+      "name": "CardContainer", 
+      "source": "templates/shared/components/CommonComponents.jsx"
+    },
+    {
+      "name": "InputField",
+      "source": "templates/shared/components/CommonComponents.jsx"
+    }
+  ],
+  
+  "generationSettings": {
+    "autoSVGConversion": true,
+    "responsiveDesign": true,
+    "printOptimization": true,
+    "accessibilityFeatures": true
+  },
+  
+  "customization": {
+    "editable": ["studentName", "studentNumber", "title"],
+    "configurable": ["familyMembers", "checklistItems", "emotionSituations"],
+    "themeable": ["colors", "fonts", "spacing"]
+  },
+  
+  "dependencies": {
+    "react": "^18.0.0",
+    "tailwindcss": "^3.0.0"
+  },
+  
+  "compatibility": {
+    "exportFormats": ["JSX", "SVG", "PNG", "PDF"],
+    "targetSoftware": ["PowerPoint", "한글", "Canva", "브라우저"]
+  }
+}
