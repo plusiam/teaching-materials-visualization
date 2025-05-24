@@ -1,0 +1,35 @@
+{
+  "templateSystem": {
+    "version": "1.0.0",
+    "migratedAt": "2025-05-24T01:50:00Z",
+    "migrationSource": "legacy-structure"
+  },
+  "templatePath": "templates/grade2/play/",
+  "metadata": {
+    "grade": 2,
+    "subject": "play",
+    "unit": "01",
+    "topic": "friendship",
+    "format": "16:9",
+    "printable": true,
+    "interactive": true
+  },
+  "migratedFiles": [
+    {
+      "original": "play_friendship_20250524.jsx",
+      "migrated": "1-activity-friendship-games-20250524.jsx",
+      "type": "JSX"
+    },
+    {
+      "original": "play_friendship_20250524.svg", 
+      "migrated": "1-activity-friendship-games-20250524.svg",
+      "type": "SVG"
+    }
+  ],
+  "styleTheme": "grade2-play-friendship",
+  "customization": {
+    "editable": ["studentName", "studentNumber", "title"],
+    "configurable": ["content", "activities"],
+    "themeable": ["colors", "fonts", "spacing"]
+  }
+}
